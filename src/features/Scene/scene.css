@@ -1,0 +1,54 @@
+:root {
+    --small-business-blue: #086788;
+    --small-business-padding: 10px;
+    --small-business-border-radius: 10px;
+}
+
+/* container */
+.scene-container {
+    overflow: hidden;
+}
+
+/* Greeting basic layout */
+.greeting {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 500px;
+}
+
+/* Greeting styles */
+.greeting {
+    color: white;
+    font-size: 55px;
+}
+
+/* nav basic layout */
+.nav {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    margin: 25px;
+}
+
+/* nav styles */
+.nav {
+    color: var(--small-business-blue);    
+}
+
+.nav li {
+    background-color: white;
+    padding: var(--small-business-padding);
+    border-radius: var(--small-business-border-radius);
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav li:hover {
+    background-color: var(--small-business-blue);
+    color: white;
+}
