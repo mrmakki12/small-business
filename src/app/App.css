@@ -7,6 +7,17 @@
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    width: 0.7em;
+    background: white;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background: #c0392b;
+    height:30px;
+    border-radius: 10px;
+}
+
 li {
     list-style: none;
 }
