@@ -1,0 +1,29 @@
+:root {
+    --small-business-yellow: #FFF1D0;
+    --small-business-padding: 10px;
+    --small-business-border-radius: 10px;
+}
+
+/* Container */
+.pitch-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    width: 100%;
+    background-color: var(--small-business-yellow);
+    margin-bottom: 7px;
+}
+
+/* Pitch basic layout */
+.pitch {
+    width: 500px;
+}
+
+/* Pitch styles */
+.pitch {
+    color: black;
+    font-size: 55px;
+    border-right: 3px solid black;
+}

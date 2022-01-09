@@ -2,6 +2,7 @@ import './scene.css';
 import React, { useEffect } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 export const Scene = () => {
 
@@ -22,7 +23,6 @@ export const Scene = () => {
         const camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, .1, 100);
         scene.add(camera);
         camera.position.z = 60;
-
 
         /**
          * Lights
