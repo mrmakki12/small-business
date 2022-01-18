@@ -14,10 +14,11 @@ export const About = () => {
                 <div className='me'>
                 </div>
                 <div className='me-info'>
-                    <p>Hey! My name is Tyreeck. I am a web developer based in North Carolina. 
-                        I love going to the gym, playing basketball and video games. I also love to draw. 
-                        But what I love to do most is to push myself to become a better version of myself. I cannot wait to meet 
-                        you!
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. 
+                        Consectetur adipiscing elit ut aliquam purus sit amet luctus.
                     </p>
                 </div>
             </div>

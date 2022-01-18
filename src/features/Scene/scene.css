@@ -33,6 +33,7 @@
 
 .nav li {
     margin: 25px;
+    list-style: none;
 }
 
 /* nav styles */
@@ -51,4 +52,12 @@
 .nav li:hover {
     background-color: var(--small-business-blue);
     color: white;
+}
+
+/* Queries */
+@media screen and (max-width: 400px) {
+    .greeting {
+        font-size: 25px;
+        width: 300px;
+    }
 }
